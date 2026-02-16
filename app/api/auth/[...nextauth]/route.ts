@@ -1,6 +1,4 @@
-export const dynamic = "force-dynamic";
-
-import NextAuth from "next-auth";
+import NextAuth from "next-auth"; // Sin llaves { }
 import { authOptions } from "@/lib/auth";
 
 const handler = NextAuth(authOptions);
